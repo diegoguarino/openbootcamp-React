@@ -29,7 +29,6 @@ const TaskListComponent = () => {
         }
     }, [tasks])
 
-
     function completeTask(task){
         console.log('Complete this Task:', task);
         const index = tasks.indexOf(task);
@@ -49,7 +48,7 @@ const TaskListComponent = () => {
     }
 
     function addTask(task){
-        console.log('Detele this Task:', task);
+        console.log('Add Task:', task);
         const tempTasks = [...tasks];
         tempTasks.push(task);
         setTasks(tempTasks);

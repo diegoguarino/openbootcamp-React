@@ -39,7 +39,7 @@ const Child = ({ name, send, update }) => {
                 onChange={(e) => console.log('Input changed:', e.target.value)}
                 onCopy={() => console.log('Copied text from Input') }
                 ref = {messageRef}
-                 />
+            />
             <button onClick={() => send(messageRef.current.value)}>
                 Send Message
             </button>

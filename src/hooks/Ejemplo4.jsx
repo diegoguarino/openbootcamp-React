@@ -15,7 +15,7 @@ const Ejemplo4 = (props) => {
             aquello que se encuentre entre las etiquetas de apertura y cierre
             de este componente desde el componente de orden superior
             */}
-            {props.children}
+            { props.children }
         </div>
     );
 }

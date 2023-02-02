@@ -58,10 +58,10 @@ function App() {
       {/* <Observableexample></Observableexample> */}
       {/* <Fetchexample></Fetchexample> */}
       {/* <Axiosexample></Axiosexample> */}
-      <Axioscrudexample></Axioscrudexample>
+      {/* <Axioscrudexample></Axioscrudexample> */}
 
       {/* PROYECTO FINAL */}
-      {/* <TaskListComponent></TaskListComponent> */}
+      <TaskListComponent></TaskListComponent>
     </div>
   );
 }

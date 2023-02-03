@@ -91,7 +91,7 @@ const Optionalrender = () => {
                     <p>You have {nMessages} new message{nMessages > 1 ? 's': null}...</p> : 
                     <p>There are no new messages</p>
                     }
-                    <button onClick={addMessages}>{nMessages === 0 ? 'Add your first message': 'Add new Message'}</button>
+                    <button onClick={addMessages}>{nMessages === 0 ? 'Add your first message' : 'Add new Message'}</button>
                 </div>) : null}
         </div>
     );

@@ -7,10 +7,10 @@ import * as Yup from 'yup';
 const loginSchema = Yup.object().shape(
     {
         email: Yup.string()
-                .email('Invalid email format')
-                .required('Email is required'),
+                .email('Invalid email format')       //mensaje que espera si no se cumple
+                .required('Email is required'),      //mensaje que espera si no se cumple
         password: Yup.string()
-                .required('Password is required')
+                .required('Password is required')    //mensaje que espera si no se cumple
     }
 );
 
